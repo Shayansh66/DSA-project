@@ -103,6 +103,12 @@ build CMakeFiles/DSA_Project.dir/Tree.c.o: C_COMPILER__DSA_Project_unscanned_Deb
   OBJECT_DIR = CMakeFiles/DSA_Project.dir
   OBJECT_FILE_DIR = CMakeFiles/DSA_Project.dir
 
+build CMakeFiles/DSA_Project.dir/ResultList.c.o: C_COMPILER__DSA_Project_unscanned_Debug /home/shayan/Desktop/mine/Code/DSA_Project/ResultList.c || cmake_object_order_depends_target_DSA_Project
+  DEP_FILE = CMakeFiles/DSA_Project.dir/ResultList.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/DSA_Project.dir
+  OBJECT_FILE_DIR = CMakeFiles/DSA_Project.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DSA_Project
@@ -111,7 +117,7 @@ build CMakeFiles/DSA_Project.dir/Tree.c.o: C_COMPILER__DSA_Project_unscanned_Deb
 #############################################
 # Link the executable DSA_Project
 
-build DSA_Project: C_EXECUTABLE_LINKER__DSA_Project_Debug CMakeFiles/DSA_Project.dir/main.c.o CMakeFiles/DSA_Project.dir/Record.c.o CMakeFiles/DSA_Project.dir/Element.c.o CMakeFiles/DSA_Project.dir/List.c.o CMakeFiles/DSA_Project.dir/Table.c.o CMakeFiles/DSA_Project.dir/Node.c.o CMakeFiles/DSA_Project.dir/Interface.c.o CMakeFiles/DSA_Project.dir/DataBase.c.o CMakeFiles/DSA_Project.dir/Tree.c.o
+build DSA_Project: C_EXECUTABLE_LINKER__DSA_Project_Debug CMakeFiles/DSA_Project.dir/main.c.o CMakeFiles/DSA_Project.dir/Record.c.o CMakeFiles/DSA_Project.dir/Element.c.o CMakeFiles/DSA_Project.dir/List.c.o CMakeFiles/DSA_Project.dir/Table.c.o CMakeFiles/DSA_Project.dir/Node.c.o CMakeFiles/DSA_Project.dir/Interface.c.o CMakeFiles/DSA_Project.dir/DataBase.c.o CMakeFiles/DSA_Project.dir/Tree.c.o CMakeFiles/DSA_Project.dir/ResultList.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/DSA_Project.dir
   POST_BUILD = :
