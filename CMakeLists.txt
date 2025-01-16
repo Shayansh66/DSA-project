@@ -18,4 +18,6 @@ add_executable(DSA_Project main.c
         Interface.h
         DataBase.c
         DataBase.h
+        Tree.c
+        Tree.h
 )

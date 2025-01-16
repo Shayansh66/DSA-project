@@ -1,11 +1,10 @@
 # ninja log v5
-0	14	1736415887483016936	CMakeFiles/DSA_Project.dir/main.c.o	cae91b73a8fae8ae
-0	8	1736875272199522692	build.ninja	4ee0005cf73f0b35
-14	28	1736415887496016937	DSA_Project	768cbd59850e3646
-1	22	1736880707247749643	CMakeFiles/DSA_Project.dir/Node.c.o	423aa52b79addf11
-0	22	1736880707247749643	CMakeFiles/DSA_Project.dir/Record.c.o	5c97b4e13ffb7c97
-1	22	1736880707247749643	CMakeFiles/DSA_Project.dir/Element.c.o	42eaf03be1acd6ed
-1	22	1736880707247749643	CMakeFiles/DSA_Project.dir/List.c.o	aec0de84edf0eea7
 1	22	1736880707247749643	CMakeFiles/DSA_Project.dir/Table.c.o	8cc796ecbd781d3d
-2	22	1736880707247749643	CMakeFiles/DSA_Project.dir/DataBase.c.o	40be0e8553b8ae52
+1	22	1736880707247749643	CMakeFiles/DSA_Project.dir/Element.c.o	42eaf03be1acd6ed
 0	37	1736880707262748324	CMakeFiles/DSA_Project.dir/main.c.o	cae91b73a8fae8ae
+0	8	1737003310716060431	build.ninja	4ee0005cf73f0b35
+0	22	1736880707247749643	CMakeFiles/DSA_Project.dir/Record.c.o	5c97b4e13ffb7c97
+1	22	1736880707247749643	CMakeFiles/DSA_Project.dir/Node.c.o	423aa52b79addf11
+2	22	1736880707247749643	CMakeFiles/DSA_Project.dir/DataBase.c.o	40be0e8553b8ae52
+14	28	1736415887496016937	DSA_Project	768cbd59850e3646
+1	22	1736880707247749643	CMakeFiles/DSA_Project.dir/List.c.o	aec0de84edf0eea7
