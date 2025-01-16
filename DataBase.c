@@ -17,7 +17,7 @@ int hash_function(char table_name[32]) {
 
 void new_table(char table_name[32]) {
     Table * new_table = table_constructor(table_name);
-    container * new_container = calloc(1, sizeof(container));
+    container * new_container = (container *) calloc(1, sizeof(container));
     new_container->table = new_table;
 
     int index = hash_function(table_name);

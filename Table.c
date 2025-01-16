@@ -5,7 +5,7 @@
 
 Table * table_constructor(char table_name[32]) {
 
-    Table * new_table = calloc(1, sizeof(Table));
+    Table * new_table = (Table *) calloc(1, sizeof(Table));
     strcpy(new_table->table_name, table_name);
     new_table->number_of_records = 0;
     new_table->list = list_constructor();
