@@ -1,3 +1,5 @@
+#include <stdbool.h>
+
 #ifndef DSA_PROJECT_RECORD_H
 #define DSA_PROJECT_RECORD_H
 
@@ -19,5 +21,7 @@ void record_destructor(Record *);
 int matched(Record *, int, char [32]);
 
 void record_update(Record *, int, char [32]);
+
+bool record_compare_student_number(Record *, Record *);
 
 #endif //DSA_PROJECT_RECORD_H

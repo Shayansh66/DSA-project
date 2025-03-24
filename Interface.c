@@ -1,7 +1,24 @@
 #include <string.h>
 #include <stdbool.h>
+#include <string.h>
 
 #include "Interface.h"
+#include "DataBase.h"
+
+void new_query(char query[]) {
+    char command[32];
+    char column_name[32];
+    unsigned int integer_values[3];
+    char string_values[4][32];
+
+    query_parser(query, command, column_name, integer_values, string_values);
+    if (strcmp(command, "CREATETABLE")) {
+        new_table(string_values[0]);
+    }
+    else if (strcmp(command, "DELETETABLE")) {
+
+    }
+}
 
 int column_detector(char * word) {
     if (strncmp(word, "StudentNumber", 13) == 0) {
@@ -44,5 +61,9 @@ void query_parser(char input_query[], char command[], char table_name[32], unsig
     }
 
 
+
+}
+
+void create_table(char query[]) {
 
 }

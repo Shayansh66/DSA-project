@@ -61,3 +61,20 @@ void delete_records(Table * table, int column, char searching_value[32]) {
 
     /* rebuild tree */
 }
+
+Result * select_records(Table * table, int column, char searching_value[32], bool is_sorted) {
+    Result * results = (Result *) calloc(1, sizeof(Result));
+    int number_of_found_records = 0;
+
+    Element * found_record = linear_search(table, column, searching_value);
+    while (found_record != NULL) {
+        new_found_record(&results, found_record->record);
+        number_of_found_records++;
+    }
+
+    if (is_sorted) {
+        results = sort_results(results, number_of_found_records);
+    }
+
+    print_results(results);
+}

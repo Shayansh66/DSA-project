@@ -6,6 +6,7 @@
 int column_detector(char *);
 void query_parser(char [], char [], char [32], unsigned int [3], char [4][32], char [32], bool);
 
+void new_query(char []);
 void create_table(char []);
 void delete_table(char []);
 void add(char []);

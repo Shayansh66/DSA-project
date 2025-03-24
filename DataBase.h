@@ -15,6 +15,7 @@ int hash_function(char [32]);
 void new_table(char [32]);
 Table * linear_table_search(container *, char [32]);
 Table * search_table(char [32]);
+void delete_table(char [32]);
 
 
 #endif //DSA_PROJECT_DATABASE_H

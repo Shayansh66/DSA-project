@@ -37,3 +37,8 @@ Table * search_table(char table_name[32]) {
     int index = hash_function(table_name);
     return linear_table_search(data_base[index], table_name);
 }
+
+void delete_table(char table_name[32]) {
+    Table * deleting_container = search_table(table_name);
+
+}

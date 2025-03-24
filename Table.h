@@ -1,5 +1,6 @@
 #include "List.h"
 #include "Node.h"
+#include "ResultList.h"
 
 #ifndef DSA_PROJECT_TABLE_H
 #define DSA_PROJECT_TABLE_H
@@ -19,7 +20,7 @@ void add_new_record(Table *, unsigned int [3],  char [4][32]);
 void update_records(Table *, int, char [32], char [32]);
 void delete_records(Table *, int, char [32]);
 
-
+Result * select_records(Table *, int, char [32], bool);
 
 /* Element * tree_search_student_number(Table *, int); */
 
